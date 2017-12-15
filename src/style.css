@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url('./longxing.ttf') format("ttf"),
+		url('./longxing.woff') format("woff"),
+		url('./longxing.woff2') format("woff2");
+	font-weight: 600;
+	font-style: normal;
+}
 .hello {
 	color: red;
+	/*background: url('./image01.png') no-repeat;*/
+	font-family: 'MyFont';
+	font-size: 30px;
 }
